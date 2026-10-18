@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <title>MailPilot macOS Updates</title>
-    <link>https://github.com/Alexander112791/mailpilot-updates/releases</link>
-    <description>Signed updates for MailPilot. No updates have been published to this feed yet.</description>
-    <language>zh-CN</language>
+    <title>MailPilot Updates</title>
+    <link>https://alexander112791.github.io/mailpilot-updates/</link>
+    <description>Signed MailPilot updates</description>
+    <item>
+      <title>MailPilot 0.6.2</title>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0.0</sparkle:minimumSystemVersion>
+      <pubDate>Sun, 18 Oct 2026 03:44:12 +0000</pubDate>
+      <description>摘要模型改为独立组件，支持签名下载、离线导入及回退。旧完整包用户升级前请先按发布说明复用模型，或升级后单独安装 Qwen ZIP。</description>
+      <enclosure url="https://github.com/Alexander112791/mailpilot-updates/releases/download/v0.6.2/MailPilot-0.6.2-AppleSilicon.dmg" length="1326724358" type="application/octet-stream" sparkle:edSignature="vrVaqGaOPP7Gc3s+g8rTjzG04w3PhGDPciKqKeUo9LgYvcEXcmw3ulvjouvbUXw9FfI0wVNoqwvZoYEpjzM4Bg==" />
+    </item>
   </channel>
 </rss>
